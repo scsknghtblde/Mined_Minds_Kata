@@ -1,0 +1,10 @@
+require "minitest/autorun"
+require_relative "number_incrementv1.rb"
+
+class test_mined_minds_ < Minitest::Test
+	
+	def test_1_returns_1
+		assert_equal(1, mined_mines(1))
+	end
+
+end
